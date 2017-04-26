@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>JamieAi Code Test</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="js/app.js" charset="utf-8"></script>
+  </head>
+  <body>
+    <div class="title capitalise">
+      <h1>About You</h1>
+    </div>
+
+    <form class="about-form" action=" " method=" ">
+      <div class="input">
+        <h3>Company Name</h3>
+        <input type="text" placeholder="Company Name" name="company-name" required>
+      </div>
+      <div class="input">
+        <h3>Name</h3>
+        <input type="text" class="capitalise name" placeholder="Name" name="name" required>
+      </div>
+      <div class="input">
+        <h3>Email</h3>
+        <input type="email" class="email" placeholder="Email" name="email" required>
+      </div>
+      <div class="input">
+        <h3>Phone Number</h3>
+        <select id="phone-type">
+          <option value="landline">Landline</option>
+          <option value="mobile">Mobile</option>
+        </select>
+        <input type="text" class="phone" placeholder="Phone Number" name="phone" required>
+      </div>
+      <div class="input">
+        <h3>Password</h3>
+        <input type="password" placeholder="Password" class="password" name="password" required>
+      </div>
+      <div class="input">
+        <h3>Password Confirmation</h3>
+        <input type="password" placeholder="Password Confirmation" class="password" name="password-confirmation" required>
+      </div>
+      <div>
+        <input id="submit" class="disable" type="submit" value="SUBMIT">
+      </div>
+    </form>
+
+  </body>
+</html>
